@@ -46,7 +46,7 @@ public class Main {
                 System.out.println("too high!");
             }
             else {
-                System.out.println("CONGRATULATIONS! The number was" + randomNumber); //print a CONGRATULATIONS message if the user's guesses the correct number
+                System.out.println("CONGRATULATIONS! The number was " + randomNumber + "\uD83E\uDD73"); //print a CONGRATULATIONS message if the user's guesses the correct number
                 System.out.println("# of attempts:" + attempts); //gives the user's number of attempts
             }
             if (maxAttempts > attempts) {
